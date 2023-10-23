@@ -20,6 +20,8 @@
  * Documentation: https://tenor.com/gifapi/documentation#quickstart-search
  */
 
+// The following are two different ways to achieve the same result: getting data from this public API over the internet!
+
 const getAge = (name) => {
   const url = 'https://api.agify.io?name=' + name
   fetch(url, {
